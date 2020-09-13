@@ -1,0 +1,26 @@
+<div class="container-fluid bg-light text-center pb-1">
+  <h1>US Coronavirus Tracker</h1>
+  <strong>Disclaimer: data provided by COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE)
+    at
+    Johns Hopkins University
+  </strong>
+</div>
+
+<div class="container-fluid">
+  <table class="table">
+    <thead class="thead-dark">
+      <th>State</th>
+      <th>County</th>
+      <th>Confirmed Cases</th>
+    </thead>
+    <tbody>
+      <tr *ngFor='let data of data$'>
+        <th>{{data.state}}</th>
+        <td>{{data.county}}</td>
+        <td>{{data.cases}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<router-outlet></router-outlet>

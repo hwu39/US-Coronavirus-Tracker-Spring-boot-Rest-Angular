@@ -1,0 +1,7 @@
+{
+    "/covid/*":{
+        "target": "http://192.168.214.130:8888",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
