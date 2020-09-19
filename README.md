@@ -16,3 +16,5 @@ To run the application:
   
   This will automatically start the Angular application and create a proxy for the rest service.
   The proxy setup in proxy.config.json is used to prevent CORS (Cross-Origin-Resource-sharing) restrictions in browsers.
+  
+  To test the whole application, go to http://localhost:4200 in your browser.
